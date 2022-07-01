@@ -9,12 +9,12 @@
   src: url(./fontes/idroid.otf) format("opentype");
 } */
 :root {
-  --hue: 190;
-
+  /* color: hsla(, 99%, 32%, 0); */
+  --hue: 209;
   --cor0: hsl(var(--hue) 49% 85%);
-  --cor2: hsl(var(--hue) 61% 70%);
-  --cor3: hsl(var(--hue) 69% 55%);
-  --cor1: hsl(var(--hue) 56% 42%);
+  --cor1: hsl(var(--hue) 61% 70%);
+  --cor2: hsl(var(--hue) 69% 55%);
+  --cor3: hsl(var(--hue) 56% 42%);
   --cor4: hsl(var(--hue) 56% 23%);
   --cor5: hsl(var(--hue) 82% 13%);
 
@@ -62,15 +62,15 @@ nav > a {
   padding-bottom: 30px;
 }
 nav > a:hover {
-  background-color: var(--cor2);
+  background-color: var(--cor1);
   color: var(--cor5);
   padding: 5px;
 }
 
 header {
-  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
   font-family: var(--fonte-destaque);
-  color: var(--cor3);
+  color: var(--cor2);
   min-width: 300px;
   max-width: 1000px;
   margin: 0 auto;
